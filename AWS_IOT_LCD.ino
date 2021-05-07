@@ -151,13 +151,13 @@ void loop() {
     if(msgReceived == 1)
     {
         msgReceived = 0;
-        if((int)rcvdPayload[0] == 49){   // CKECK ASCII VALUE OF 1 IS 49 
+        if((int)rcvdPayload[0] == 49){   // CHECK ASCII VALUE OF 1 IS 49 
            b0PopCallback(&b0);
         }
-        else if((int)rcvdPayload[0] == 50){   // CKECK ASCII VALUE OF 2 IS 50 
+        else if((int)rcvdPayload[0] == 50){   // CHECK ASCII VALUE OF 2 IS 50 
            b1PopCallback(&b1);
         }
-         else if((int)rcvdPayload[0] == 51){    // CKECK ASCII VALUE OF 3 IS 51 
+         else if((int)rcvdPayload[0] == 51){    // CHECK ASCII VALUE OF 3 IS 51 
            b3PopCallback(&b3);
         }
 
